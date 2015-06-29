@@ -1,0 +1,23 @@
+{
+  "name": "中文简繁字体转换 Chinese Simple Tradition Translator",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Switch font between simple chinese and traditional chinese",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["bg.js"]
+  },
+  "permissions": [
+    "<all_urls>",
+    "contextMenus"
+  ],
+  "browser_action": {
+    "default_title": "中文简繁字体转换",
+    "default_icon": "icon_128.png",
+    "default_popup": "popup.html"
+  }
+}
